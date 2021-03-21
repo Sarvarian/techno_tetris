@@ -24,6 +24,14 @@ config/icon="res://assets/icon.png"
 window/size/width=720
 window/size/height=1280
 
+[editor_plugins]
+
+enabled=PoolStringArray( "smoothing" )
+
+[physics]
+
+common/physics_fps=5
+
 [rendering]
 
 quality/driver/driver_name="GLES2"

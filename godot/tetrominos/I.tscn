@@ -4,6 +4,8 @@
 [ext_resource path="res://tiles/one.tscn" type="PackedScene" id=2]
 [ext_resource path="res://tiles/street.tscn" type="PackedScene" id=3]
 
+
+
 [node name="I" instance=ExtResource( 1 )]
 
 [node name="One" parent="." index="0" instance=ExtResource( 2 )]

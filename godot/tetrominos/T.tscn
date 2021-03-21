@@ -6,20 +6,21 @@
 
 [node name="T" instance=ExtResource( 1 )]
 
-[node name="One" parent="." index="0" instance=ExtResource( 3 )]
-modulate = Color( 1, 0, 1, 1 )
-position = Vector2( 0, -64 )
-
-[node name="One2" parent="." index="1" instance=ExtResource( 3 )]
+[node name="One2" parent="." index="0" instance=ExtResource( 3 )]
 modulate = Color( 1, 0, 1, 1 )
 position = Vector2( 64, 0 )
 rotation = 1.5708
 
-[node name="One3" parent="." index="2" instance=ExtResource( 3 )]
+[node name="One3" parent="." index="1" instance=ExtResource( 3 )]
 modulate = Color( 1, 0, 1, 1 )
 position = Vector2( -64, 0 )
 rotation = -1.5708
 
-[node name="Turn" parent="." index="3" instance=ExtResource( 2 )]
+[node name="Turn" parent="." index="2" instance=ExtResource( 2 )]
 modulate = Color( 1, 0, 1, 1 )
 rotation = -3.14159
+
+[node name="One" parent="." index="3" instance=ExtResource( 3 )]
+modulate = Color( 1, 0, 1, 1 )
+position = Vector2( 0, -64 )
+scale = Vector2( -1, 1 )
